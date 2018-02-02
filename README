@@ -1,0 +1,16 @@
+# Notes
+
+Docs: http://tomcat.apache.org/tomcat-8.5-doc/config/
+
+Things changed from the default configuration:
+- Added a `<Context>` element to `conf/server.xml`.
+- Added `<Resources allowLinking="true" />` to `conf/context.xml`, without this, Tomcat will not be able to pick up our class files.
+
+Next steps:
+- Remove `<Context>` out of the `conf/server.xml`.
+
+Management aliases:
+
+    alias start="/var/everyclick/tomcat/8.5/bin/startup.sh"
+    alias stop="/var/everyclick/tomcat/8.5/bin/shutdown.sh"
+    alias log="tail -f /var/everyclick/tomcat/8.5/logs/catalina.out"

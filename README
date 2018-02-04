@@ -14,3 +14,5 @@ Management aliases:
     alias start="/var/everyclick/tomcat/8.5/bin/startup.sh"
     alias stop="/var/everyclick/tomcat/8.5/bin/shutdown.sh"
     alias log="tail -f /var/everyclick/tomcat/8.5/logs/catalina.out"
+
+CTRL+W, wrap with tag

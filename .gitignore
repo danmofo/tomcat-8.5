@@ -1,5 +1,7 @@
-webapps
-logs
+webapps/new-everyclick
+logs/*.log
+logs/*.txt
+logs/*.out
 temp
 work
 *.swp
